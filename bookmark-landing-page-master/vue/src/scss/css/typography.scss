@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+// Weights: 400, 500
+$font-base: 18px;
+
+.main{
+  font-family: 'Rubik', sans-serif;
+  font-size: $font-base;
+}
+
+p.nav-elements{
+  font-weight: 400;
+}

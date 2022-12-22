@@ -1,0 +1,106 @@
+$soft-blue: hsl(231, 69%, 60%);
+$soft-red: hsl(0, 94%, 66%);
+$grayish-blue: hsl(229, 8%, 60%);
+$very-dark-blue: hsl(229, 31%, 21%);
+
+p.nav-elements{
+  text-transform: uppercase;
+  color: #51566c;
+  margin: 0 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: 0.4s;
+  &:hover {
+    color: $soft-red;
+  }
+}
+
+.btn-login{
+  background-color: $soft-red;
+  color: white;
+  padding: 7px 35px;
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: $soft-red 2px solid;
+  transition: 0.4s;
+  text-transform: uppercase;
+  margin: 0 20px;
+  &:hover {
+    background-color: white;
+    color: $soft-red;
+    font-weight:600;
+  }
+}
+
+// --------------------------
+
+.title-container, .features-container{
+  padding: 40px 0;
+}
+
+h1.title{
+  color: #252b46;
+}
+
+p.description{
+  color: #9194a1;
+  line-height: 27px;
+  margin: 20px 0;
+}
+
+.btn-section{
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.btn-chrome {
+  background-color: $soft-blue;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: 0.4s;
+  &:hover {
+    border: $soft-blue 2px solid;
+    background-color: white;
+    color: $soft-blue;
+  }
+}
+
+.btn-firefox {
+  background-color: #f9f9f9;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #252b46;
+  margin: 0 15px;
+  transition: 0.4s;
+  &:hover {
+    border: black 2px solid;
+    background-color: white;
+  }
+}
+
+// --------------------
+
+.features-container {
+  margin: auto;
+}
+
+.features-section {
+  text-align: center;
+}
+
+.features-section h2 {
+  color: #252b46;
+  font-weight: 500;
+}
+
+.features-content p {
+  color: #9194a1;
+  margin: 10px 0;
+}
+
+.features {
+  color: #9194a1;
+  padding: 20px 0;
+}

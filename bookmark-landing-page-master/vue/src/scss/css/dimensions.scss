@@ -1,0 +1,150 @@
+@media screen and (min-width: 993px) {
+  .nav-mobile{
+    display: none;
+  }
+  .nav-desktop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .nav-section{
+    display: flex;
+  }
+  .title-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .title-section {
+    max-width: 50%;
+  }
+  h1.title {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 500;
+  }
+  .features-section h2 {
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .features-content {
+    max-width: 45%;
+    margin: auto;
+  }
+  .features {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+    
+  }
+  .features li {
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #9194a1;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 701px){
+  .nav-mobile{
+    display: none;
+  }
+  .nav-desktop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .nav-section{
+    display: flex;
+  }
+  .title-container{
+    display: flex;
+    align-items: center;
+  }
+  .title-section {
+    max-width: 50%;
+  }
+  h1.title{
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 500;
+  }
+  .features-section h2{
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .features-content {
+    max-width: 80%;
+    margin: auto;
+  }
+  .features {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    
+  }
+  .features li {
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #9194a1;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-desktop{
+    display: none;
+  }
+  .nav-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title-section {
+    text-align: center;
+  }
+  h1.title{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  p.description, .features-content p {
+    font-size: 15px;
+  }
+  .features-section h2{
+    font-size: 24px;
+    line-height: 52px;
+  }
+  .features-content {
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .features li {
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #9194a1;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+}
+
+nav, .title-container{
+  max-width: 90%;
+  margin: auto;
+  align-items: center;
+}
